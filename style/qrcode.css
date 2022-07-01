@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Titan+One&family=Ubuntu:wght@300&display=swap');
+
+:root{
+
+    --colorGenerica1: white;
+    --ColorGenerica2: black;
+    --PaletaCor1:#f0d841;
+    --PaletaCor2:#2867b2;
+    --PaletaCor3:#8c1c13;
+    --PaletaCor4:#9bc1bc;
+    --PaletaCor5:#d4bebe;
+
+    --fonteTextos:'Ubuntu', Arial, Helvetica, sans-serif;
+    --fonteDestaque:'Bebas Neue', 'Titan One';
+
+}
+
+
+body{ margin: 0px; padding: 0px; background-color: var(--PaletaCor1);}
+article{text-align: center; background-image: linear-gradient(to bottom,var(--PaletaCor2), black ); 
+    width: 500px; height: 500px;
+    margin: auto; 
+    color: var(--colorGenerica1);
+    margin-bottom: -1px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+}
+
+
+
+
+section{ margin: auto; max-width: 600px; min-width: 400px;}
+article >p {text-align: center; font: 30px var(--fonteTextos);  margin: 10px; max-width: 600px; color: white; }
+article>h1{text-align: center; font: 40px var(--fonteDestaque); margin-top: 10px; color: var(--PaletaCor1);}
+article>img{background-color: black; border-radius: 10px;}
+
+
+
+footer{background-color: var(--ColorGenerica2); height: 50px; text-align: center; border: 4px solid var(--PaletaCor2); margin: 0px;}
+footer:hover{background-color: var(--ColorGenerica2); height: 50px; text-align: center; border: 4px solid var(--PaletaCor2); margin: 0px; box-shadow: 1px 1px 10px var(--PaletaCor2);}
+footer > span {color: var(--colorGenerica1); font: 2em var(--fonteTextos); margin: 20px 0px 20px 0px;}
+footer>span>a{text-decoration: none; color: var(--colorGenerica1);}
+footer>span>a:hover{text-decoration: underline; color: var(--colorGenerica1); text-shadow: 2px 2px 10px var(--PaletaCor4);}
+#Redes-Sociais{padding: 10px 10px 20px 10px;}
+footer> a>img{background-color: var(--PaletaCor2); padding: 0px 20px;}
+footer>a>img:hover{background-color: var(--colorGenerica1); padding: 0px 20px; box-shadow: 1px 1px 20px var(--PaletaCor2); transition-duration: 0.8s;}
