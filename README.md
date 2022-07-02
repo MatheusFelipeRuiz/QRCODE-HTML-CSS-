@@ -3,5 +3,5 @@
  <h2>Links: </h2>
  <ul>
     <li>Meu GITHUB: <a href="https://github.com/MatheusFelipeRuiz" target="_blank">Matheus Ruiz </a></li>
-    <li>Página do QRCODE: <a href='https://matheusfeliperuiz.github.io/QRCODE-HTML-CSS-/qrcode.html' target='_blank'></li>
+    <li>Acessar QRCODE: <a href='https://matheusfeliperuiz.github.io/QRCODE-HTML-CSS-/qrcode.html' target='_blank'>QRCODE</a></li>
  </ul>
